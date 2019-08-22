@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  position: relative;
+  padding: 97px 80px;
+  max-width: 1440px;
+  width: 100vw;
+}
+
+.menu {
+  position: absolute;
+  top: 97px;
+  right: 80px;
+  width: 54px;
+  height: 54px;
+  background: url(../img/menu-border@2x.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* border-radius: 50%;
+  border: #070707; */
+}
+
+.arc {
+  position: relative;
+  width: 62.5%;
+  height: 525px;
+  background: url(../img/arc@2x.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.yellow-cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #F7E611;
+  opacity: 0.8;
+}
+
+.moto {
+  position: relative;
+  margin-top: calc(87px - 525px);
+  margin-left: 32.8%;
+  width: 67.2%;
+  height: 490px;
+  background: url(../img/moto@2x.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logo-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 995px;
+  height: 157px;
+  background: url(../img/logo@2x.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transform: translate(-50%, -50%);
+}
+
+.letter {
+  position: absolute;
+  width: 53px;
+  height: 80px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.letter__a {
+  top: 97px;
+  left: 981px;
+  background: url(../img/letterA.svg);
+}
+
+.letter__e {
+  top: 137px;
+  left: 1155px;
+  background: url(../img/letterE.svg);
+}
+.letter__g {
+  width: 62px;
+  top: 215px;
+  left: 1065px;
+  background: url(../img/letterG.svg);
+}
+
+.slider {
+  position: absolute;
+  top: 256px;
+  right: 278px;
+  width: 138px;
+  height: 383px;
+  background: #F7E611;
+}
