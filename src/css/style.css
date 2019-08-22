@@ -232,10 +232,18 @@ body {
   background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 550px) {
+.footer__mobile {
+  display: none;
+}
+
+@media screen and (max-width: 450px) {
   .wrapper {
     padding: 0;
     background-color: #F7E611;
+    width: 100%;
+    min-width: 320px;
+    height: 568px;
+    min-height: 100vh;
   }
   .footer__left,
   .footer__right,
@@ -280,6 +288,7 @@ body {
   .letter {
     width: 40px;
     height: 60px;
+    background-size: cover;
   }
 
   .letter__a {
@@ -292,9 +301,42 @@ body {
     left: 68.1%;
   }
   .letter__g {
-    width: 62px;
+    width: 42px;
     top: 219px;
     left: 46.3%;
+  }
+  .arc {
+    position: relative;
+    top: 83px;
+    left: -13.8%;
+    width: 87.5%;
+    height: 184px;
+    background: url(../img/arcMobile@2x@2x.png);
+  }
+
+  .moto {
+    position: absolute;
+    bottom: 0;
+    left: -37.5%;
+    width: 175%;
+    height: 318px;
+    background-color: #fff;
+    background-image: url(../img/motoMobile@2x.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .footer__mobile {
+    display: block;
+    box-sizing: border-box;
+    padding: 65px 0 0 63px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 104px;
+    height: 104px;
+    background: linear-gradient(to right bottom, transparent 0%, transparent 50%, #F7E611 50%);
   }
 }
 
