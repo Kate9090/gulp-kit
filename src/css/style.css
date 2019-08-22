@@ -6,7 +6,7 @@ body {
 
 .wrapper {
   position: relative;
-  padding: 97px 80px;
+  padding: 97px 80px 126px;
   max-width: 1440px;
   width: 100vw;
 }
@@ -51,10 +51,47 @@ body {
   margin-left: 32.8%;
   width: 67.2%;
   height: 490px;
-  background: url(../img/moto@2x.png);
+  background-color: #fff;
+  background-image: url(../img/moto@2x.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.trapecia {
+  position: absolute;
+  top: 266px;
+  left: 349px;
+  width: 177px;
+  height: 282px;
+  background: url(../img/trapecia.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.trapecia__content {
+  position: absolute;
+  bottom: 0;
+  left: -26px;
+  font-family: Philosopher;
+  font-size: 9px;
+  line-height: 10px;
+  font-style: italic;
+}
+
+.circle {
+  position: absolute;
+  top: 216px;
+  left: 586px;
+  width: 100px;
+  height: 100px;
+}
+.circle__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
 
 .logo-text {
@@ -104,4 +141,43 @@ body {
   width: 138px;
   height: 383px;
   background: #F7E611;
+  font-family: Geometria;
+}
+
+.slider__wrapper {
+  padding: 305px 21px 3px 21px;
+}
+
+.slider__text {
+  font-size: 45px;
+  line-height: 54px;
+}
+
+.slider__subtext {
+  margin: 0;
+  margin-left: 56px;
+  font-size: 17px;
+  line-height: 17px;
+}
+
+.shtamp {
+  position: absolute;
+  bottom: 84px;
+  left: 50%;
+  width: 213px;
+  height: 134px;
+  background: url(../img/lavr@2x.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transform: translateX(-50%);
+}
+
+.rectangle {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 213px;
+  height: 10px;
+  background-color: #F7E611;
 }
