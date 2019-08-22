@@ -5,12 +5,14 @@ body {
 }
 
 .wrapper {
+  display: block;
   margin: 0 auto;
   position: relative;
   padding: 97px 80px 126px;
   max-width: 1440px;
   width: 100vw;
   overflow: hidden;
+  background: #fff;
 }
 
 .logo {
@@ -218,7 +220,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 .footer__right {
   position: absolute;
   bottom: 17px;
@@ -230,3 +231,71 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+@media screen and (max-width: 550px) {
+  .wrapper {
+    padding: 0;
+    background-color: #F7E611;
+  }
+  .footer__left,
+  .footer__right,
+  .logo-text,
+  .trapecia,
+  .circle,
+  .rectangle,
+  .text
+   {
+    display: none;
+  }
+  .slider {
+    margin: 0 auto;
+    top: 0;
+    left: 50%;
+    width: 60%;
+    height: 100%;
+    min-height: 100vh;
+    transform: translateX(-50%);
+    background: transparent;
+    z-index: 10;
+  }
+  .menu {
+    width: 20px;
+    height: 18px;
+    background-size: auto;
+    top: 20px;
+    right: 20px;
+  }
+  .logo {
+    top: 16px;
+    left: 20px;
+    z-index: 20;
+  }
+  .shtamp {
+    width: 109px;
+    height: 109px;
+    bottom: 0;
+    transform: translate(-50%, 50%);
+    background: url(../img/lavr-mobile.svg);
+  }
+  .letter {
+    width: 40px;
+    height: 60px;
+  }
+
+  .letter__a {
+    top: 235px;
+    left: 21.9%;
+  }
+
+  .letter__e {
+    top: 141px;
+    left: 68.1%;
+  }
+  .letter__g {
+    width: 62px;
+    top: 219px;
+    left: 46.3%;
+  }
+}
+
+

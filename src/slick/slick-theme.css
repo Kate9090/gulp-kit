@@ -45,9 +45,14 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    transition: 0.2s;
 }
 .slick-next {
     background: url(../img/arrow.svg);
+}
+.slick-prev:hover,
+.slick-next:hover {
+  opacity: 0.4;
 }
 .slick-prev:hover,
 .slick-prev:focus,
@@ -56,7 +61,6 @@
 {
     color: transparent;
     outline: none;
-    /* background: transparent; */
 }
 .slick-prev:hover:before,
 .slick-prev:focus:before,
