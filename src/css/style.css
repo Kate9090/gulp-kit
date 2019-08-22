@@ -67,6 +67,26 @@ body {
   background-repeat: no-repeat;
 }
 
+.text {
+  position: absolute;
+  top: 183px;
+  left: 223px;
+  font-family: Geometria;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.text__two {
+  top: 263px;
+}
+
+.text__more {
+  top: 127px;
+  left: 563px;
+  font-size: 28px;
+  transform: rotate(-90deg);
+}
+
 .trapecia {
   position: absolute;
   top: 266px;
