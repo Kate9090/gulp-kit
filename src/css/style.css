@@ -9,6 +9,7 @@ body {
   padding: 97px 80px 126px;
   max-width: 1440px;
   width: 100vw;
+  overflow: hidden;
 }
 
 .logo {
@@ -188,4 +189,28 @@ body {
   width: 213px;
   height: 10px;
   background-color: #F7E611;
+}
+
+.footer__left {
+  position: absolute;
+  bottom: -16px;
+  left: 192px;
+  width: 346px;
+  height: 113px;
+  background: url(../img/footer-left.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer__right {
+  position: absolute;
+  bottom: 17px;
+  right: 216px;
+  width: 293px;
+  height: 62px;
+  background: url(../img/footer-right.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
