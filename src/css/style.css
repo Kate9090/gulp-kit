@@ -168,7 +168,6 @@ body {
   height: 383px;
   background: #F7E611;
   font-family: Geometria;
-  /* z-index: 10; */
 }
 
 .slider__wrapper {
@@ -194,8 +193,8 @@ body {
   width: 16.6%;
   height: 134px;
   background: url(../img/lavr@2x.png);
-  background-position: center;
-  background-size: cover;
+  background-position: center bottom;
+  background-size: 100% auto;
   background-repeat: no-repeat;
   transform: translateX(-50%);
 }
@@ -217,7 +216,7 @@ body {
   height: 113px;
   background: url(../img/footer-left.svg);
   background-position: center;
-  background-size: cover;
+  background-size: 100% auto;
   background-repeat: no-repeat;
 }
 .footer__right {
@@ -228,7 +227,7 @@ body {
   height: 62px;
   background: url(../img/footer-right.svg);
   background-position: center;
-  background-size: cover;
+  background-size: 100% auto;
   background-repeat: no-repeat;
 }
 
